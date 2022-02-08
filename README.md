@@ -2,6 +2,12 @@
 
 This will work independently without the API but the searches module won't work; because that module needs the backend API.
 
+For your backend to work please update the .env file with the link of your API(8000 is the default run port for laravel serve)
+
+```
+VUE_APP_API=http://127.0.0.1:8000
+```
+
 ## Project setup
 ```
 npm install

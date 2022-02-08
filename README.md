@@ -1,4 +1,6 @@
-# frontend
+# Wather me app Front end
+
+This will work independently without the API but the searches module won't work; because that module needs the backend API.
 
 ## Project setup
 ```

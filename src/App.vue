@@ -1,17 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="row">
+    <div class="col-md-12">
+      <router-link to="/" class="mx-4">Map</router-link>
+      <router-link to="/searches" class="mx-4">Searches</router-link>
+    </div>
+  </div>
+  
+  <router-view />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import LandingPage from "./components/Index.vue";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+  // components: {
+  //   LandingPage,
+  // },
+};
 </script>
 
 <style>
@@ -20,7 +26,5 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
